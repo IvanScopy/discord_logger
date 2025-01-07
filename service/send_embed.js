@@ -17,16 +17,16 @@ const send_embed = async (channel, topic, bindingKey, body, type) => {
 
     const embed = {
         color: cl,
-        title: 'Logger',
-        url: 'https://github.com/Youknow2509/',
+        title: 'Tung',
+        url: 'https://github.com/IvanScopy',
         author: {
-            name: 'Ly Tran Vinh',
-            icon_url: 'https://avatars.githubusercontent.com/u/88392742',
-            url: 'https://github.com/Youknow2509/',
+            name: 'Bui Quang Tung',
+            icon_url: 'https://avatars.githubusercontent.com/u/127161790?s=400&u=8450fdc04eb098797385afea7066c9ed47415770&v=4',
+            url: 'https://github.com/IvanScopy/',
         },
         description: `Logger ${topic}`,
         thumbnail: {
-            url: 'https://avatars.githubusercontent.com/u/88392742',
+            url: 'https://avatars.githubusercontent.com/u/127161790?s=400&u=8450fdc04eb098797385afea7066c9ed47415770&v=4',
         },
         fields: [
             {
